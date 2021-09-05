@@ -1,0 +1,111 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/mackieg/dev/nft-test/contracts/Box.sol": {
+      "lastModificationDate": 1630809091960,
+      "contentHash": "875b48719f145972e3df50c8ad4bcf6d",
+      "sourceName": "contracts/Box.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Box"
+      ]
+    },
+    "/Users/mackieg/dev/nft-test/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1630809068052,
+      "contentHash": "4fe56b59ced59d87df6b796758f62895",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/mackieg/dev/nft-test/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1630809068051,
+      "contentHash": "851485d5b925529b1a2f34a0be077891",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "nft-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts/index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-truffle5": "^2.0.0",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.3.1",
+    "@openzeppelin/test-helpers": "^0.5.13",
+    "chai": "^4.3.4",
+    "ethers": "^5.4.6",
+    "hardhat": "^2.6.2",
+    "web3": "^1.5.2"
+  }
+}

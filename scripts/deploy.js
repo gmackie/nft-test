@@ -1,11 +1,11 @@
 // scripts/deploy.js
 async function main () {
   // We get the contract to deploy
-  const Box = await ethers.getContractFactory('Box');
-  console.log('Deploying Box...');
-  const box = await Box.deploy();
-  await box.deployed();
-  console.log('Box deployed to:', box.address);
+  const Box = await ethers.getContractFactory('NftToken');
+  console.log('Deploying NFT...');
+  const nft = await NftToken.deploy();
+  await nft.deployed();
+  console.log('NFT deployed to:', nft.address);
 }
 
 main()
